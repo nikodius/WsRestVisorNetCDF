@@ -15,6 +15,10 @@ import com.visorNetCDF.logica.Respuesta;
 import com.visorNetCDF.logica.Sistema;
 import com.visorNetCDF.persistencia.VariableDTO;
 
+/**
+ * clase controlador con peticiones del servicio netCDF
+ *
+ */
 @RestController
 @RequestMapping("/netCDF")
 public class NetCDFController {
